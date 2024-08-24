@@ -1,0 +1,98 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #fce4ec, #f8bbd0); /* Soft pink gradient */
+  color: #333;
+}
+
+header {
+  background: linear-gradient(135deg, #ff80ab, #f48fb1); /* Soft pink gradient */
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  border-bottom: 2px solid #f48fb1;
+}
+
+.header-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: 5px solid #fff;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-picture {
+    width: 150px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height to match the width for a square image */
+    border-radius: 50%; /* Makes the image round */
+    border: 5px solid #fff; /* Optional: Add a border if you want */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for a better look */
+}
+
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  color: #fff;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background: #ff4081; /* Vibrant pink background */
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #f73378; /* Slightly darker pink on hover */
+}
+
+main {
+  padding: 40px 20px;
+}
+
+.intro, .about, .contact {
+  padding: 40px 20px;
+  text-align: center;
+  background: #ffffffcc; /* Semi-transparent white background */
+  border-radius: 10px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact {
+  background: #fce4ec; /* Soft pink background */
+}
+
+footer {
+  background: linear-gradient(135deg, #ff80ab, #f48fb1); /* Soft pink gradient */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  border-top: 2px solid #f48fb1;
+}
